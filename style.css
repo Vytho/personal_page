@@ -1,0 +1,317 @@
+
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
+.text_center {
+    text-align: center;
+}
+
+
+
+
+.menu_box {
+    display: flex;
+    background: rgb(31,41,55);
+
+    height: 120px;
+    justify-content: space-around;
+}
+
+
+h2 {
+    color: white;
+    
+}
+
+
+
+
+.logo_container {
+    display: flex;
+    background: rgb(31,41,55);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu_container {
+    display: flex;
+    width: 800px;
+    background: rgb(31,41,55);
+    justify-content: center;
+   
+
+}
+  
+.menu_item {
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    background: rgb(31,41,55);
+    margin: 5px;
+    border: 3px solid darkslategray;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.intro_info{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    background: rgb(31,41,55);
+ 
+    justify-content: center;
+}
+
+.intro_photo_item {
+    width: 150px;
+    height: auto;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    margin: 30px;
+}
+
+.intro_text_box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    background: rgb(31,41,55);
+
+}
+
+
+
+
+.intro_text_item_2 {
+    color: white;
+    flex-grow: 0.05;
+    background: rgb(31,41,55);
+    margin: 0px;
+    
+}
+
+
+
+.intro_text_item_3 {
+    color: white;
+    flex-grow: 0.01;
+    border: 4px solid darkslategray;
+    background: rgb(59, 130, 246);
+    margin: 0px;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.header_box {
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: flex-end;
+    height: 130px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header_text_item {
+
+    background: white;
+}
+
+
+
+.boxes_box{
+    display: flex;
+    background: white;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+
+.boxes_item{
+    display: flex;
+    border: 4px solid darkslategray;
+    background: white;
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.boxes_desc_box{
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: flex-start;
+    height: 130px;
+}
+
+
+.boxes_desc_item{
+    background: white;
+    width: 120px;
+    height: 60px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.division_item{
+    width: 30px;
+    height: 60px;
+
+}
+
+.division_item_up {
+    width: 25px;
+    height: 120px;
+}
+
+
+.quote_box {
+    display: flex;
+    background: rgb(229, 231, 235);
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.saruman_box {
+    display: flex;
+    background: rgb(229, 231, 235);
+    width: 500px;
+    margin: 0px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.quote_item {
+    background: rgb(229, 231, 235);
+    width: 500px;
+    height: 150px;
+    margin: 0px;
+}
+
+.saruman_item {
+    background: rgb(229, 231, 235);
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+}
+
+
+
+.contact_box {
+    display: flex;
+    background: white;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+}
+
+
+.contact_inner_box {
+    display: flex;
+    background: white;
+    height: 160px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_item_1 {
+    display: flex;
+    background: rgb(59, 130, 246);
+    color: white;
+    width: 650px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.media_box {
+    display: flex;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+.media_image {
+    width: 30px;
+    height: 30px;
+    background: white;
+}
+
+.media_text {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+.copyright_box {
+    display: flex;
+    background: rgb(31,41,55);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+.copyright_item {
+    background: rgb(31,41,55);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
