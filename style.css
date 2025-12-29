@@ -45,16 +45,18 @@ body {
 .name {
   font-size: 3rem;
   font-weight: bold;
-  color: #0ff;
+  color: rgb(8, 8, 8);
   text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #0ff;
+  color: rgb(9, 10, 10);
   text-shadow: 0 0 5px #0ff;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 /* Cards */
