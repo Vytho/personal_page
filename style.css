@@ -8,7 +8,7 @@
 body {
   font-family: 'Courier New', monospace;
   background: #0d0d0f;
-  color: #e0e0e0;
+  color: #f0f0f0; /* brighter text */
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
@@ -44,31 +44,33 @@ body {
 .name {
   font-size: 4rem;
   color: #0ff;
-  text-shadow: 0 0 10px #0ff, 0 0 30px #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 30px #0ff, 0 0 50px #0ff;
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #ccc;
+  color: #d0d0d0; /* brighter subtitle */
   margin-bottom: 3rem;
   letter-spacing: 0.05em;
+  text-shadow: 0 0 5px #0ff;
 }
 
-/* Cards */
+/* Cards with higher contrast */
 .card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(15, 15, 20, 0.85); /* darker, more opaque */
+  border: 1px solid rgba(0,255,255,0.4);
   padding: 2rem;
   border-radius: 20px;
   margin-bottom: 2rem;
   text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0,255,255,0.3);
+  box-shadow: 0 20px 40px rgba(0,255,255,0.5), 0 0 20px rgba(255,0,255,0.2);
+  border-color: rgba(0,255,255,0.6);
 }
 
 /* Headings in cards */
@@ -76,30 +78,36 @@ body {
   color: #0ff;
   margin-bottom: 1rem;
   letter-spacing: 0.05em;
+  text-shadow: 0 0 5px #0ff;
 }
 
 /* Lists */
 ul {
   list-style: none;
+  padding-left: 0.5rem;
 }
 
 ul li::before {
   content: "» ";
   color: #0ff;
+  text-shadow: 0 0 3px #0ff;
 }
 
 ul li {
   margin-bottom: 0.5rem;
+  color: #f0f0f0; /* brighter list items */
 }
 
 /* Links */
 a {
   color: #0ff;
   text-decoration: none;
+  text-shadow: 0 0 2px #0ff;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #f0f;
+  text-shadow: 0 0 5px #f0f;
 }
 
 /* Contact card center text */
