@@ -1,116 +1,39 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Courier New', monospace;
-  background: #0d0d0f;
-  color: #f0f0f0; /* brighter text */
+  background: #0a0a0a; /* very dark */
+  color: #ffffff; /* pure white for text */
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
 }
 
-/* Background gradient animation */
+/* Background gradient — less blur */
 .background {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
   background: linear-gradient(120deg, #0ff, #f0f);
   background-size: 400% 400%;
-  filter: blur(150px);
+  filter: blur(50px); /* reduced blur */
   z-index: -1;
-  animation: gradientShift 20s ease infinite;
+  animation: gradientShift 30s ease infinite;
 }
 
-@keyframes gradientShift {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-/* Container */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 8rem 2rem;
-  text-align: center;
-}
-
-/* Name and subtitle */
-.name {
-  font-size: 4rem;
-  color: #0ff;
-  text-shadow: 0 0 10px #0ff, 0 0 30px #0ff, 0 0 50px #0ff;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  color: #d0d0d0; /* brighter subtitle */
-  margin-bottom: 3rem;
-  letter-spacing: 0.05em;
-  text-shadow: 0 0 5px #0ff;
-}
-
-/* Cards with higher contrast */
 .card {
-  background: rgba(15, 15, 20, 0.85); /* darker, more opaque */
-  border: 1px solid rgba(0,255,255,0.4);
+  background: #111111; /* solid dark background */
+  border: 1px solid #0ff;
   padding: 2rem;
   border-radius: 20px;
   margin-bottom: 2rem;
   text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0,255,255,0.5), 0 0 20px rgba(255,0,255,0.2);
-  border-color: rgba(0,255,255,0.6);
-}
-
-/* Headings in cards */
-.card h2 {
-  color: #0ff;
-  margin-bottom: 1rem;
-  letter-spacing: 0.05em;
-  text-shadow: 0 0 5px #0ff;
-}
-
-/* Lists */
-ul {
-  list-style: none;
-  padding-left: 0.5rem;
+.card h2, .name, .subtitle, ul li, a {
+  color: #0ff; /* bright neon cyan */
+  text-shadow: 0 0 5px #0ff; /* glow effect */
 }
 
 ul li::before {
   content: "» ";
   color: #0ff;
-  text-shadow: 0 0 3px #0ff;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-  color: #f0f0f0; /* brighter list items */
-}
-
-/* Links */
-a {
-  color: #0ff;
-  text-decoration: none;
-  text-shadow: 0 0 2px #0ff;
-}
-
-a:hover {
-  color: #f0f;
-  text-shadow: 0 0 5px #f0f;
-}
-
-/* Contact card center text */
-.card.contact {
-  text-align: center;
 }
