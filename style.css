@@ -65,7 +65,7 @@ body {
   border-radius: 20px;
   margin-bottom: 2rem;
   text-align: left;
-  box-shadow: 0 0 15px #0ff33a66;
+  box-shadow: 0 0 16px #0ff33a66;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
