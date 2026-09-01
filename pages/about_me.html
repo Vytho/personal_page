@@ -2,21 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viktor Židzik</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me — Viktor Židzik</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
 </head>
 
-
 <body>
-<a href="../index.html" style="text-align: right;">Home</a>
-<p>in progress...</p>
 
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="../index.html">Viktor<span>Židzik</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="about_me.html" aria-current="page">About me</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
 
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>About me</h1>
+      <p class="tagline">A longer story is coming soon — this page is still in progress.</p>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="card reveal">
+        <p>
+          In the meantime: I'm a computer engineering student at CTU in Prague, focused
+          on industrial automation and embedded systems. You can read about my current
+          projects on the <a href="../index.html" style="color: var(--accent);">home page</a>
+          or follow along on the <a href="blog.html" style="color: var(--accent);">blog</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
 
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Viktor Židzik</span>
+    <a href="https://github.com/Vytho/personal_page" target="_blank" rel="noopener">Source on GitHub</a>
+  </div>
+</footer>
 
 </body>
-
-
 </html>

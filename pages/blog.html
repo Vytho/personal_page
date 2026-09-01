@@ -2,31 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viktor Židzik</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Viktor Židzik</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
 </head>
 
-
 <body>
-<a href="../index.html" style="text-align: right;">Home</a>
-<h1 style="text-align: center;">Blog</h1>
 
-<a href="blog_pages/sensoric_head/sens_head_intro.html">Multisensoric head project</a> <br>
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="../index.html">Viktor<span>Židzik</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="about_me.html">About me</a>
+      <a href="blog.html" aria-current="page">Blog</a>
+    </nav>
+  </div>
+</header>
 
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Blog</h1>
+      <p class="tagline">Notes from my projects — automation, embedded systems, and everything in between.</p>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container">
+      <h2>Series</h2>
+      <ul class="post-list">
+        <li>
+          <a class="post-link" href="blog_pages/sensoric_head/sens_head_intro.html">
+            <div class="card reveal">
+              <div class="post-meta">SERIES · PROFINET · IO-LINK</div>
+              <h3>Multisensoric head project</h3>
+              <p>Building a self-contained, universal sensor device with Profinet and IO-Link, from code to CAD.</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
 
-
-
-<br>
-<br>
-<a href="blog_pages/fname_of_the_first_post.html">Name of the first post</a> <br>
-<a href="blog.html">Name of the second post</a> <br>
-
-
-
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Viktor Židzik</span>
+    <a href="https://github.com/Vytho/personal_page" target="_blank" rel="noopener">Source on GitHub</a>
+  </div>
+</footer>
 
 </body>
-
-
 </html>
