@@ -2,31 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viktor Židzik</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Blueprint for a blog post. Copy into pages/blog_pages/... and fix the
+       relative paths below (style.css, index.html, about_me.html, blog.html)
+       to match the folder depth. -->
+  <title>Title of the post — Viktor Židzik</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="../../script.js" defer></script>
 </head>
-
 
 <body>
 
-<h1 style="text-align: center;">Title of the post</h1>
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="../../index.html">Viktor<span>Židzik</span></a>
+    <nav class="site-nav">
+      <a href="../../index.html">Home</a>
+      <a href="../about_me.html">About me</a>
+      <a href="../blog.html" aria-current="page">Blog</a>
+    </nav>
+  </div>
+</header>
 
+<main>
+  <article class="article">
+    <div class="container">
+      <div class="post-meta">DATE · TOPIC</div>
+      <h1>Title of the post</h1>
 
+      <p class="lead">
+        Optional lead paragraph — a one or two sentence summary of the post.
+      </p>
 
-<p style="text-align: center;">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-<br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-<br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-<br>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
 
+      <h2>A section heading</h2>
+      <p>
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Inline code looks like <code>this</code>.
+      </p>
+    </div>
+  </article>
+</main>
 
-
-
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Viktor Židzik</span>
+    <a href="../blog.html">← Back to blog</a>
+  </div>
+</footer>
 
 </body>
-
-
 </html>
